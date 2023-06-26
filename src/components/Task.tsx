@@ -12,7 +12,7 @@ const Task: React.FC<TaskProps> = ({ task }) => {
   const router = useRouter();
   const [openModalEdit, setOpenModalEdit] = useState<boolean>(false);
   const [openModalDelete, setOpenModalDelete] = useState<boolean>(false);
-  const [editTaskValue, setEditTaskValue] = useState<string>("");
+  const [editTaskValue, setEditTaskValue] = useState<string>(task.text);
 
   const handleSubmitEditTodo = () => {};
 
