@@ -1,8 +1,9 @@
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-center underline">Next js</h1>
-      <button className="btn">Click me</button>
+    <main className="max-w-4xl mx-auto mt-4">
+      <div className="text-center my-5 flex flex-col gap-4">
+        <h1 className="text-2xl font-bold text-red-500">Todo List App</h1>
+      </div>
     </main>
   );
 }
