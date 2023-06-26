@@ -38,7 +38,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 #### - Setup in Project
 
-### `Next js last version install`
+### `Next js last version Install`
 ```
 npx create-next-app@latest
+```
+
+### `Tailwindcss Install`
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+### `Daisy UI last version Install`
+```
+npm i -D daisyui@latest
 ```
