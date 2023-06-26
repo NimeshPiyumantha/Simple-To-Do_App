@@ -21,10 +21,15 @@ const Task: React.FC<TaskProps> = ({ task }) => {
     <tr key={task.id}>
       <td className="w-full">{task.text}</td>
       <td className="flex gap-5">
-        <FiEdit cursor="pointer" className="text-yellow-500" size={25} />
+        <FiEdit
+          onClick={() => setOpenModalEdit(true)}
+          cursor="pointer"
+          className="text-yellow-500"
+          size={25}
+        />
         <Modal modalOpen={openModalEdit} setModalOpen={setOpenModalEdit}>
           <form onSubmit={handleSubmitEditTodo}>
-            <h3 className="font-bold text-lg">Add new task</h3>
+            <h3 className="font-bold text-lg">Edit Task</h3>
             <div className="modal-action">
               <input
                 value={editTaskValue}
