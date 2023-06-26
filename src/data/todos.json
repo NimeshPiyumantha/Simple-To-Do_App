@@ -2,31 +2,11 @@
   "tasks": [
     {
       "id": 1,
-      "text": "buy milk with some orange"
+      "text": "buy milk with some "
     },
     {
       "id": 2,
-      "text": "help my friend to find a girl"
-    },
-    {
-      "id": "3",
-      "text": "es"
-    },
-    {
-      "id": "4",
-      "text": "got to"
-    },
-    {
-      "id": "8d2eef21-d695-4337-978b-841f7b83fbcf",
-      "text": "ammo"
-    },
-    {
-      "id": "f069c7d3-6811-4602-bf4b-347a8fcd0fac",
-      "text": "Learn it big"
-    },
-    {
-      "id": "e5a91bf9-56bf-41bc-8598-48e256e1edbf",
-      "text": "Hi hi"
+      "text": "help my friend to find a girls"
     }
   ]
 }
