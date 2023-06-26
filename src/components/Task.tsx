@@ -1,3 +1,4 @@
+"use client";
 import { ITask } from "@/types/tasks";
 import { FiEdit, FiTrash2 } from "react-icons/fi";
 import React, { FormEventHandler, useState } from "react";
