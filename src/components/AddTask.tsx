@@ -16,7 +16,9 @@ const AddTask = () => {
         Add New task <AiOutlinePlus className="ml-2" size={18} />
       </button>
 
-      <Modal modalOpen={modalOpen} setModalOpen={setModalOpen} />
+      <Modal modalOpen={modalOpen} setModalOpen={setModalOpen}>
+        modal for add todo
+      </Modal>
     </div>
   );
 };
