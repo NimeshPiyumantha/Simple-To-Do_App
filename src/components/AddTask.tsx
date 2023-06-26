@@ -43,7 +43,7 @@ const AddTask = () => {
               placeholder="Type here"
               className="input input-bordered w-full"
             />
-            <button type="submit" className="btn">
+            <button type="submit" className="btn bg-green-400 hover:bg-green-500">
               Submit
             </button>
           </div>
