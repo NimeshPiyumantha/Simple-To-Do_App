@@ -36,9 +36,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Simple-To-Do_App
 
-## - Setup in Project
-
-- **TO DO App**
+#### - Setup in Project
 
 ### `Next js last version install`
 ```
