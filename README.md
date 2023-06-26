@@ -68,6 +68,12 @@ npm install react-icons --save
 npm install -g json-server
 ```
 
+### `Install uuid`
+
+```
+npm i uuid
+```
+
 ##
 
 ### - `Run Project`
