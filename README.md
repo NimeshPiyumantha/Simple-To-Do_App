@@ -33,28 +33,36 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 # Simple-To-Do_App
 
 #### - Setup in Project
 
-### `Next js last version Install`
+### `Install Next js last version`
+
 ```
 npx create-next-app@latest
 ```
 
-### `Tailwindcss Install`
+### `Install Tailwindcss`
+
 ```
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-### `Daisy UI last version Install`
+### `Install Daisy UI last version`
+
 ```
 npm i -D daisyui@latest
 ```
 
-### `React Icons Install`
+### `Install React Icons`
+
 ```
 npm install react-icons --save
+```
+
+### `Install JSON Server`
+```
+npm install -g json-server
 ```
