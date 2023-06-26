@@ -63,13 +63,18 @@ npm install react-icons --save
 ```
 
 ### `Install JSON Server`
+
 ```
 npm install -g json-server
 ```
+
 ##
+
 ### - `Run Project`
+
 ```
 npm run dev
 npm run json-server
 ```
+
 ##
