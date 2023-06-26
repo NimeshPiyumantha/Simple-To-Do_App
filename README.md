@@ -40,7 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - **TO DO App**
 
-### Next js last version install
+### `Next js last version install`
 ```
 npx create-next-app@latest
 ```
