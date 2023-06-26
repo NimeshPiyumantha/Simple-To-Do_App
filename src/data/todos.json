@@ -1,12 +1,16 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "buy milk with some "
+      "id": "dbbb1214-b22d-474c-a53e-1a44392094a0",
+      "text": "Learn Java"
     },
     {
-      "id": 2,
-      "text": "help my friend to find a girls"
+      "id": "55ea3a30-5cd1-4b67-b6cd-6747c3a0d113",
+      "text": "Learn Sql"
+    },
+    {
+      "id": "fd06e39a-b629-4d2f-89ec-074dc964bedd",
+      "text": "Learn  Pythone"
     }
   ]
 }
