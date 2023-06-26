@@ -4,6 +4,7 @@ import { FiEdit, FiTrash2 } from "react-icons/fi";
 import React, { FormEventHandler, useState } from "react";
 import { useRouter } from "next/navigation";
 import Modal from "./Modal";
+import { editTodo } from "@/api/api";
 
 interface TaskProps {
   task: ITask;
@@ -15,7 +16,16 @@ const Task: React.FC<TaskProps> = ({ task }) => {
   const [openModalDelete, setOpenModalDelete] = useState<boolean>(false);
   const [editTaskValue, setEditTaskValue] = useState<string>(task.text);
 
-  const handleSubmitEditTodo = () => {};
+  const handleSubmitEditTodo: FormEventHandler<HTMLFormElement> = async (e) => {
+    e.preventDefault();
+    await editTodo({
+      id: task.id,
+      text: editTaskValue,
+    });
+    setEditTaskValue("");
+    setOpenModalEdit(false);
+    router.refresh();
+  };
 
   return (
     <tr key={task.id}>
