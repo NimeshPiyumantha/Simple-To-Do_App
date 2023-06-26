@@ -97,9 +97,13 @@ npm i uuid
 ##
 
 ### - `Run Project`
-
+#### - Front End
 ```
 npm run dev
+```
+
+#### - Back End
+```
 npm run json-server
 ```
 
