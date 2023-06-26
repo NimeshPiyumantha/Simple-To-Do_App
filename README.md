@@ -34,8 +34,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 # Simple-To-Do_App
+
 This is a Learn CRUD Operations in Next js 13.
+
 ###
+
 [![wakatime](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/964f9727-65f2-459e-90da-d678ee02a4d0.svg)](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/964f9727-65f2-459e-90da-d678ee02a4d0)
 
 ### - Technology
@@ -52,8 +55,6 @@ This is a Learn CRUD Operations in Next js 13.
 <img src="https://github.com/NimeshPiyumantha/Simple-To-Do_App/blob/master/src/assests/gif/todoApp.gif" alt="Alt Text">
 
 </div>
-
-
 
 #### - Setup in Project
 
@@ -97,18 +98,20 @@ npm i uuid
 ##
 
 ### - `Run Project`
+
 #### - Front End
+
 ```
 npm run dev
 ```
 
 #### - Back End
+
 ```
 npm run json-server
 ```
 
 ##
-
 
 ###
 
