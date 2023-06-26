@@ -1,6 +1,11 @@
+import { ITask } from "@/types/tasks";
 import React from "react";
 
-const TodoList = () => {
+interface TodoListProps {
+  tasks: ITask[];
+}
+
+const TodoList: React.FC<TodoListProps> = () => {
   return (
     <div className="overflow-x-auto">
       <table className="table w-full">
