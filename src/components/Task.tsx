@@ -11,8 +11,8 @@ const Task: React.FC<TaskProps> = ({ task }) => {
     <tr key={task.id}>
       <td className="w-full">{task.text}</td>
       <td className="flex gap-5">
-        <FiEdit className="text-yellow-500" size={25} />
-        <FiTrash2 className="text-red-500" size={25} />
+        <FiEdit cursor="pointer" className="text-yellow-500" size={25} />
+        <FiTrash2 cursor="pointer" className="text-red-500" size={25} />
       </td>
     </tr>
   );
