@@ -53,3 +53,8 @@ npx tailwindcss init -p
 ```
 npm i -D daisyui@latest
 ```
+
+### `React Icons Install`
+```
+npm install react-icons --save
+```
